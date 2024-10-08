@@ -10,9 +10,9 @@ survos_bunny:
             name: museado-pixie
             id: 752023
             region: NY
-            readonly_password: '%env(BUNNY_MUSEADO-PIXIE_READONLY_PASSWORD)%'
+            readonly_password: '%env(BUNNY_MUSEADO_PIXIE_READONLY_PASSWORD)%'
         -
             name: museado-data-zip
             id: 752027
             region: NY
-            readonly_password: '%env(BUNNY_MUSEADO-DATA-ZIP_READONLY_PASSWORD)%'
+            readonly_password: '%env(BUNNY_MUSEADO_DATA_ZIP_READONLY_PASSWORD)%'
