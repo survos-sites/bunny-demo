@@ -1,0 +1,18 @@
+survos_bunny:
+    api_key: '%env(BUNNY_API_KEY)%'
+    zones:
+        -
+            name: museado
+            id: 680125
+            region: NY
+            readonly_password: '%env(BUNNY_MUSEADO_READONLY_PASSWORD)%'
+        -
+            name: museado-pixie
+            id: 752023
+            region: NY
+            readonly_password: '%env(BUNNY_MUSEADO-PIXIE_READONLY_PASSWORD)%'
+        -
+            name: museado-data-zip
+            id: 752027
+            region: NY
+            readonly_password: '%env(BUNNY_MUSEADO-DATA-ZIP_READONLY_PASSWORD)%'
