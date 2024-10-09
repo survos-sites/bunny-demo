@@ -1,3 +1,8 @@
 body {
     background-color: skyblue;
 }
+
+.current a {
+    background-color: pink;
+    text-decoration: underline;
+}

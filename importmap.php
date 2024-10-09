@@ -32,4 +32,11 @@ return [
         'version' => '9.1.0',
         'type' => 'css',
     ],
+    '@picocss/pico' => [
+        'version' => '2.0.6',
+    ],
+    '@picocss/pico/css/pico.min.css' => [
+        'version' => '2.0.6',
+        'type' => 'css',
+    ],
 ];
