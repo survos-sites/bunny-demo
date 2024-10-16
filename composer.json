@@ -9,6 +9,7 @@
         "php": "^8.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-zip": "*",
         "doctrine/dbal": "^3",
         "doctrine/doctrine-bundle": "^2.12",
         "doctrine/doctrine-migrations-bundle": "^3.3",
@@ -49,7 +50,7 @@
         "symfony/yaml": "^7.1",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0",
-      "ext-zip": "*"
+        "zenstruck/bytes": "^1.0"
     },
     "config": {
         "allow-plugins": {
