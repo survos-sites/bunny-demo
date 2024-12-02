@@ -16,20 +16,20 @@ return [
         'path' => './assets/app.js',
         'entrypoint' => true,
     ],
-    '@hotwired/stimulus' => [
-        'version' => '3.2.2',
-    ],
     '@symfony/stimulus-bundle' => [
         'path' => './vendor/symfony/stimulus-bundle/assets/dist/loader.js',
     ],
+    '@hotwired/stimulus' => [
+        'version' => '3.2.2',
+    ],
     '@hotwired/turbo' => [
-        'version' => '7.3.0',
+        'version' => '8.0.12',
     ],
     'simple-datatables' => [
-        'version' => '9.1.0',
+        'version' => '9.2.1',
     ],
     'simple-datatables/dist/style.min.css' => [
-        'version' => '9.1.0',
+        'version' => '9.2.1',
         'type' => 'css',
     ],
     '@picocss/pico' => [
