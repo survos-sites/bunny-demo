@@ -6,24 +6,26 @@
     "minimum-stability": "RC",
     "prefer-stable": true,
     "require": {
-        "php": "^8.3",
+        "php": "^8.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-zip": "*",
         "aws/aws-sdk-php": "*",
+        "codebuds/webp-conversion-bundle": "^0.4.0",
         "doctrine/dbal": "^4",
         "doctrine/doctrine-bundle": "^2.12",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^3.2",
         "knplabs/knp-menu-bundle": "^3.4",
+        "knplabs/knp-time-bundle": "^2.4",
         "league/flysystem-aws-s3-v3": "*",
+        "liip/imagine-bundle": "^2.13",
         "phpdocumentor/reflection-docblock": "^5.4",
-        "phpstan/phpdoc-parser": "^1.29",
         "survos/bunny-bundle": "^1.5",
         "survos/command-bundle": "^1.5",
         "survos/installer": "*@dev",
         "survos/simple-datatables-bundle": "^1.5",
-        "survos/storage-bundle": "dev-main",
+        "survos/storage-bundle": "^1.5",
         "symfony/asset": "^7.1",
         "symfony/asset-mapper": "^7.1",
         "symfony/console": "^7.1",
@@ -53,8 +55,9 @@
         "symfony/validator": "^7.1",
         "symfony/web-link": "^7.1",
         "symfony/yaml": "^7.1",
-        "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0",
+        "toshy/bunnynet-php": "^7",
+        "twig/extra-bundle": "^3.0",
+        "twig/twig": "^3.0",
         "zenstruck/bytes": "^1.0"
     },
     "config": {
@@ -106,7 +109,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": "true",
-            "require": "^7.2"
+            "require": "^7.4"
         }
     },
     "require-dev": {
