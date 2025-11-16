@@ -26,6 +26,7 @@ class AppMenu
         $menu = $this->factory->createItem('root');
 
         $menu->addChild('Home', ['route' => 'app_homepage']);
+        $menu->addChild('Storage', ['route' => 'survos_storage_zones']);
         // ... add more children
 
         foreach ($this->bunnyService->getZones() as $zone) {
