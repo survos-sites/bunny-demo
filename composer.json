@@ -11,7 +11,6 @@
         "ext-iconv": "*",
         "ext-zip": "*",
         "aws/aws-sdk-php": "*",
-        "codebuds/webp-conversion-bundle": "^0.4.0",
         "doctrine/dbal": "^4",
         "doctrine/doctrine-bundle": "^3.0",
         "doctrine/doctrine-migrations-bundle": "^3.3",
@@ -110,8 +109,7 @@
         }
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest"
-        ,
+        "roave/security-advisories": "dev-latest",
         "phpmetrics/phpmetrics": "dev-3.x-dev",
         "phpunit/phpunit": "^11.4",
         "symfony/browser-kit": "^7.1",

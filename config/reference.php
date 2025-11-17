@@ -1360,10 +1360,6 @@ namespace Symfony\Component\DependencyInjection\Loader\Configurator;
  *         post_processors?: array<string, array<string, mixed>>,
  *     },
  * }
- * @psalm-type WebPConversionConfig = array{
- *     quality?: scalar|null, // Default: 80
- *     upload_path?: scalar|null, // Default: "/public/images"
- * }
  * @psalm-type SurvosBunnyConfig = array{
  *     api_key?: scalar|null, // Default: null
  *     storage_zone?: scalar|null, // Default: null
@@ -1396,7 +1392,6 @@ namespace Symfony\Component\DependencyInjection\Loader\Configurator;
  *     flysystem?: FlysystemConfig,
  *     survos_storage?: SurvosStorageConfig,
  *     liip_imagine?: LiipImagineConfig,
- *     web_p_conversion?: WebPConversionConfig,
  *     survos_bunny?: SurvosBunnyConfig,
  *     "when@dev"?: array{
  *         imports?: ImportsConfig,
@@ -1422,7 +1417,6 @@ namespace Symfony\Component\DependencyInjection\Loader\Configurator;
  *         flysystem?: FlysystemConfig,
  *         survos_storage?: SurvosStorageConfig,
  *         liip_imagine?: LiipImagineConfig,
- *         web_p_conversion?: WebPConversionConfig,
  *         survos_bunny?: SurvosBunnyConfig,
  *     },
  *     "when@prod"?: array{
@@ -1446,7 +1440,6 @@ namespace Symfony\Component\DependencyInjection\Loader\Configurator;
  *         flysystem?: FlysystemConfig,
  *         survos_storage?: SurvosStorageConfig,
  *         liip_imagine?: LiipImagineConfig,
- *         web_p_conversion?: WebPConversionConfig,
  *         survos_bunny?: SurvosBunnyConfig,
  *     },
  *     "when@test"?: array{
@@ -1471,7 +1464,6 @@ namespace Symfony\Component\DependencyInjection\Loader\Configurator;
  *         flysystem?: FlysystemConfig,
  *         survos_storage?: SurvosStorageConfig,
  *         liip_imagine?: LiipImagineConfig,
- *         web_p_conversion?: WebPConversionConfig,
  *         survos_bunny?: SurvosBunnyConfig,
  *     },
  *     ...<string, ExtensionType|array{ // extra keys must follow the when@%env% pattern or match an extension alias
