@@ -22,6 +22,5 @@ return [
     Survos\StorageBundle\SurvosStorageBundle::class => ['all' => true],
     Knp\Bundle\TimeBundle\KnpTimeBundle::class => ['all' => true],
     Liip\ImagineBundle\LiipImagineBundle::class => ['all' => true],
-    CodeBuds\WebPConversionBundle\WebPConversionBundle::class => ['all' => true],
     Survos\BunnyBundle\SurvosBunnyBundle::class => ['all' => true],
 ];
