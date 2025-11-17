@@ -13,7 +13,7 @@
         "aws/aws-sdk-php": "*",
         "codebuds/webp-conversion-bundle": "^0.4.0",
         "doctrine/dbal": "^4",
-        "doctrine/doctrine-bundle": "^2.12",
+        "doctrine/doctrine-bundle": "^3.0",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^3.2",
         "knplabs/knp-menu-bundle": "^3.4",
@@ -21,10 +21,10 @@
         "league/flysystem-aws-s3-v3": "*",
         "liip/imagine-bundle": "^2.13",
         "phpdocumentor/reflection-docblock": "^5.4",
-        "survos/bunny-bundle": "^1.5",
-        "survos/command-bundle": "^1.5",
-        "survos/simple-datatables-bundle": "^1.5",
-        "survos/storage-bundle": "^1.5",
+        "survos/bunny-bundle": "^2.0",
+        "survos/command-bundle": "^2.0",
+        "survos/simple-datatables-bundle": "^2.0",
+        "survos/storage-bundle": "^2.0",
         "symfony/asset": "^7.1",
         "symfony/asset-mapper": "^7.1",
         "symfony/console": "^7.1",
@@ -54,7 +54,7 @@
         "symfony/validator": "^7.1",
         "symfony/web-link": "^7.1",
         "symfony/yaml": "^7.1",
-        "toshy/bunnynet-php": "^7",
+        "toshy/bunnynet-php": "^7.4||^8.0",
         "twig/extra-bundle": "^3.0",
         "twig/twig": "^3.0",
         "zenstruck/bytes": "^1.0"
@@ -110,6 +110,8 @@
         }
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
         "phpmetrics/phpmetrics": "dev-3.x-dev",
         "phpunit/phpunit": "^11.4",
         "symfony/browser-kit": "^7.1",
