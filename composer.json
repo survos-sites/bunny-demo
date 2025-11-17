@@ -23,7 +23,6 @@
         "phpdocumentor/reflection-docblock": "^5.4",
         "survos/bunny-bundle": "^1.5",
         "survos/command-bundle": "^1.5",
-        "survos/installer": "*@dev",
         "survos/simple-datatables-bundle": "^1.5",
         "survos/storage-bundle": "^1.5",
         "symfony/asset": "^7.1",
@@ -62,9 +61,7 @@
     },
     "config": {
         "allow-plugins": {
-            "endroid/installer": false,
             "php-http/discovery": true,
-            "survos/installer": true,
             "symfony/flex": true,
             "symfony/runtime": true
         },
@@ -122,11 +119,5 @@
         "symfony/phpunit-bridge": "^7.1",
         "symfony/stopwatch": "^7.1",
         "symfony/web-profiler-bundle": "^7.1"
-    },
-    "repositories": {
-        "survos_installer": {
-            "type": "path",
-            "url": "/home/tac/sites/installer"
-        }
     }
 }

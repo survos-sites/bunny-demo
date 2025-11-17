@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18bd61e8cecd24420d386e3c58a827df",
+    "content-hash": "534ebae36e1673fb6ca686342d6749cf",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3916,52 +3916,6 @@
                 }
             ],
             "time": "2025-08-12T16:08:17+00:00"
-        },
-        {
-            "name": "survos/installer",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/home/tac/sites/installer",
-                "reference": "b026a3896be9cf6a9c0e858ca1164880ab406725"
-            },
-            "require": {
-                "composer-plugin-api": "^2.0",
-                "php": "^8.2",
-                "symfony/finder": "^7.2",
-                "symfony/yaml": "^7.2"
-            },
-            "require-dev": {
-                "composer/composer": "^2.0"
-            },
-            "suggest": {
-                "roave/security-advisories": "Avoids installation of package versions with vulnerabilities"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.x-dev"
-                },
-                "class": "Survos\\Installer\\Installer"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Survos\\Installer\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tac Tacelosky",
-                    "email": "tacman@gmail.com"
-                }
-            ],
-            "description": "Composer plugin for installing configuration files and updating .env and .gitignore, based on survos/installer",
-            "transport-options": {
-                "relative": false
-            }
         },
         {
             "name": "survos/simple-datatables-bundle",
@@ -12895,8 +12849,7 @@
     "aliases": [],
     "minimum-stability": "RC",
     "stability-flags": {
-        "phpmetrics/phpmetrics": 20,
-        "survos/installer": 20
+        "phpmetrics/phpmetrics": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -12907,5 +12860,5 @@
         "ext-zip": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
